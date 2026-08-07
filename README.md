@@ -12,8 +12,8 @@
 <a href="https://trendshift.io/repositories/2145" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2145" alt="gradio-app%2Fgradio | Trendshift" style="width: 150px; height: 55px;" width="150" height="55"/></a>
 </span>
 
-[![gradio-backend](https://github.com/gradio-app/gradio/actions/workflows/test-python.yml/badge.svg)](https://github.com/gradio-app/gradio/actions/workflows/test-python.yml)
-[![gradio-ui](https://github.com/gradio-app/gradio/actions/workflows/tests-js.yml/badge.svg)](https://github.com/gradio-app/gradio/actions/workflows/tests-js.yml) 
+[![gradio-backend](https://github.com/Unity-Billal-mesloub/gradio/actions/workflows/test-python.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/gradio/actions/workflows/test-python.yml)
+[![gradio-ui](https://github.com/Unity-Billal-mesloub/gradio/actions/workflows/tests-js.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/gradio/actions/workflows/tests-js.yml) 
 [![PyPI](https://img.shields.io/pypi/v/gradio)](https://pypi.org/project/gradio/)
 [![PyPI downloads](https://img.shields.io/pypi/dm/gradio)](https://pypi.org/project/gradio/)
 ![Python version](https://img.shields.io/badge/python-3.10+-important)
@@ -150,7 +150,7 @@ So far, we've been discussing the `Interface` class, which is a high-level class
 
 Gradio offers a low-level approach for designing web apps with more customizable layouts and data flows with the `gr.Blocks` class. Blocks supports things like controlling where components appear on the page, handling multiple data flows and more complex interactions (e.g. outputs can serve as inputs to other functions), and updating properties/visibility of components based on user interaction — still all in Python. 
 
-You can build very custom and complex applications using `gr.Blocks()`. For example, the popular image generation [Automatic1111 Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) is built using Gradio Blocks. We dive deeper into the `gr.Blocks` on our series on [building with Blocks](https://www.gradio.app/guides/blocks-and-event-listeners).
+You can build very custom and complex applications using `gr.Blocks()`. For example, the popular image generation [Automatic1111 Web UI](https://github.com/Unity-Billal-mesloub/stable-diffusion-webui) is built using Gradio Blocks. We dive deeper into the `gr.Blocks` on our series on [building with Blocks](https://www.gradio.app/guides/blocks-and-event-listeners).
 
 #### Chatbots with `gr.ChatInterface`
 
@@ -190,7 +190,7 @@ gradio skills add abidlabs/en2fr --cursor
 
 ## Questions?
 
-If you'd like to report a bug or have a feature request, please create an [issue on GitHub](https://github.com/gradio-app/gradio/issues/new/choose). For general questions about usage, we are available on [our Discord server](https://discord.com/invite/feTf9x3ZSB) and happy to help.
+If you'd like to report a bug or have a feature request, please create an [issue on GitHub](https://github.com/Unity-Billal-mesloub/gradio/issues/new/choose). For general questions about usage, we are available on [our Discord server](https://discord.com/invite/feTf9x3ZSB) and happy to help.
 
 If you like Gradio, please leave us a ⭐ on GitHub!
 
