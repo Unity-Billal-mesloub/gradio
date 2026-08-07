@@ -15,7 +15,7 @@ So the single most valuable thing you can do is **file a clear, detailed, reprod
 
 ### 🐛 Reporting a bug
 
-Please [open an issue](https://github.com/gradio-app/gradio/issues/new/choose) and include:
+Please [open an issue](https://github.com/Unity-Billal-mesloub/gradio/issues/new/choose) and include:
 
 1. **A clear, descriptive title** that summarizes the problem.
 2. **What you expected to happen** vs. **what actually happened.**
@@ -28,11 +28,11 @@ Please [open an issue](https://github.com/gradio-app/gradio/issues/new/choose) a
 
 The smaller and more self-contained the reproduction, the faster we can fix it.
 
-[#10568](https://github.com/gradio-app/gradio/issues/10568) is a good example of a bug report to follow.
+[#10568](https://github.com/Unity-Billal-mesloub/gradio/issues) is a good example of a bug report to follow.
 
 ### ✨ Requesting a feature
 
-Please [open an issue](https://github.com/gradio-app/gradio/issues/new/choose) and include:
+Please [open an issue](https://github.com/Unity-Billal-mesloub/gradio/issues/new/choose) and include:
 
 1. **A clear, descriptive title.**
 2. **The problem or use case** you're trying to solve — what are you trying to build, and where does Gradio fall short today?
@@ -42,7 +42,7 @@ Please [open an issue](https://github.com/gradio-app/gradio/issues/new/choose) a
 
 Detailed feature requests directly shape our roadmap and help us prioritize what to build next.
 
-[#12519](https://github.com/gradio-app/gradio/issues/12519) is a good example of a feature request issue to follow.
+[#12519](https://github.com/Unity-Billal-mesloub/gradio/issues) is a good example of a feature request issue to follow.
 
 ## 🏡 Setup Gradio locally
 
@@ -361,7 +361,7 @@ This structure defines the pages' ordering. You can use a numeral prefix (XX_) b
 
 The mdsvex files use a combination of markdown and svelte. They also pull documentation directly from the source code. Adding a `@document()` wrapper around any class or function in the source code will make its docstrings available in the templates. 
 
-Here's an example: the template for [Image docs](https://www.gradio.app/docs/gradio/image) is [here](https://github.com/gradio-app/gradio/blob/main/js/_website/src/lib/templates/gradio/03_components/image.svx). You can see the initialization section references `obj.parameters`. So to edit the description of a parameter you'll have to edit the docstring in the [source code](https://github.com/gradio-app/gradio/blob/main/gradio/components/image.py). But the page also includes a section titled 'GIF and SVG Image Formats' which is written in plain markdown and can be edited directly on the template. 
+Here's an example: the template for [Image docs](https://www.gradio.app/docs/gradio/image) is [here](https://github.com/Unity-Billal-mesloub/gradio/blob/main/js/_website/src/lib/templates/gradio/03_components/image.svx). You can see the initialization section references `obj.parameters`. So to edit the description of a parameter you'll have to edit the docstring in the [source code](https://github.com/Unity-Billal-mesloub/gradio/blob/main/gradio/components/image.py). But the page also includes a section titled 'GIF and SVG Image Formats' which is written in plain markdown and can be edited directly on the template. 
 
 If you are making changes to docstrings and want to see them on the website you have to make sure you're on an editable install of the gradio library. Just run this command from root:
 
@@ -457,9 +457,9 @@ Thank you for taking the time to contribute to Gradio!
 
 ## ❓ Need help or have questions?
 
-- [Open a detailed issue](https://github.com/gradio-app/gradio/issues/new/choose) for a bug or feature request — see the [guidelines above](#-the-best-way-to-contribute-open-a-great-issue).
+- [Open a detailed issue](https://github.com/Unity-Billal-mesloub/gradio/issues/new/choose) for a bug or feature request — see the [guidelines above](#-the-best-way-to-contribute-open-a-great-issue).
 - Ask the Gradio community in our [Discord](https://discord.com/invite/feTf9x3ZSB).
-- Browse existing [issues](https://github.com/gradio-app/gradio/issues) to see if your problem has already been reported (and add a 👍 or extra reproduction details if so).
+- Browse existing [issues](https://github.com/Unity-Billal-mesloub/gradio/issues) to see if your problem has already been reported (and add a 👍 or extra reproduction details if so).
 
 ## 🚧 Troubleshooting
 `ERROR: Error loading ASGI app. Could not import module "<filename>"`
